@@ -33,40 +33,21 @@ Users should be able to:
 - Semantic HTML5 markup
 - CSS custom properties
 - CSS Grid
+- SASS
 - Mobile-first workflow
-- [Styled Components](https://styled-components.com/) - For styles
 
 ### What I learned
 
-Use this section to recap over some of your major learnings while working through this project. Writing these out and providing code samples of areas you want to highlight is a great way to reinforce your own knowledge.
+- SASS -
+  First sass project
 
-To see how you can add code snippets, see below:
-
-```html
-<h1>Some HTML code I'm proud of</h1>
-```
-
-```css
-.proud-of-this-css {
-  color: papayawhip;
-}
-```
-
-```js
-const proudOfThisFunc = () => {
-  console.log("🎉");
-};
-```
-
-If you want more help with writing markdown, we'd recommend checking out [The Markdown Guide](https://www.markdownguide.org/) to learn more.
+- CSS grid-template-area -
 
 ### Useful resources
 
-- [Example resource 1](https://www.example.com) - This helped me for XYZ reason. I really liked this pattern and will use it going forward.
-- [Example resource 2](https://www.example.com) - This is an amazing article which helped me finally understand XYZ. I'd recommend it to anyone still learning this concept.
+- [MDN Web Docs](https://developer.mozilla.org/en-US/docs/Web/CSS/grid-template-areas)
 
 ## Author
 
-- Website - [Add your name here](https://www.your-site.com)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
-- Twitter - [@yourusername](https://www.twitter.com/yourusername)
+- Website - [Afope](https://www.your-site.com)
+- Frontend Mentor - [@AfopeM](https://www.frontendmentor.io/profile/AfopeM)
