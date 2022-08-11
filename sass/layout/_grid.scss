@@ -1,0 +1,37 @@
+@use "reset" as r;
+.testimonial-container {
+  display: grid;
+  justify-content: center;
+  grid-template-columns: 90%;
+  grid-template-areas:
+    "daniel"
+    "jonathan"
+    "jeanette"
+    "patrick"
+    "kira";
+
+  gap: 1.5rem;
+  padding: 3rem 0;
+}
+
+@media (min-width: r.$Tablet) {
+  .testimonial-container {
+    // grid-template-columns: repeat(2, minmax(300px, 20%));
+    grid-template-columns: repeat(2, 25%);
+    grid-template-areas:
+      "daniel daniel"
+      "jonathan kira"
+      "jeanette kira"
+      "patrick patrick";
+  }
+}
+@media (min-width: r.$Desktop) {
+  .testimonial-container {
+    grid-template-columns: repeat(4, minmax(100px, 250px));
+    grid-template-areas:
+      "daniel daniel jonathan kira"
+      "jeanette patrick patrick kira";
+
+    gap: 2rem;
+  }
+}

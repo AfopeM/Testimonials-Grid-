@@ -1,0 +1,42 @@
+// FONT FAMILY
+@import url("https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@500;600&display=swap");
+
+// RESPONSIVE
+$Tablet: 768px;
+$Desktop: 1440px;
+
+// COLOUR
+// Primary
+
+$Moderate-violet: hsl(263, 55%, 52%);
+$Very-dark-grayish-blue: hsl(217, 19%, 35%);
+$Very-dark-blackish-blue: hsl(219, 29%, 14%);
+$White: hsl(0, 0%, 100%);
+
+//Neutral
+
+$Light-gray: hsl(0, 0%, 81%);
+$Light-grayish-blue: hsl(210, 46%, 95%);
+
+// RESET
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+html {
+  font-size: 81.25%;
+}
+
+body {
+  font-family: "Barlow Semi Condensed", sans-serif;
+  box-sizing: border-box;
+  background-color: $Light-grayish-blue;
+
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
